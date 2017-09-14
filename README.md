@@ -178,6 +178,5 @@ tvComment.setOnClickListener(new View.OnClickListener() {
 
 # 4.其他
 
- 1.[我的博客](http://blog.csdn.net/gaolh89/article/details/74080088)
-
- 2. 如果您觉得这篇博客对您有帮助,star就是对我最大的鼓励!
+ (1).[我的博客](http://blog.csdn.net/gaolh89/article/details/74080088)
+ (2).如果您觉得这篇博客对您有帮助,star就是对我最大的鼓励!
