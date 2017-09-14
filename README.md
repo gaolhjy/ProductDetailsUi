@@ -1,9 +1,10 @@
-#1.效果图
+# 1.效果图
  
  ![这里写图片描述](http://img.blog.csdn.net/20170701214412871?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZ2FvbGg4OQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
  
-#2.实现思路
-##(1)总体思路:
+# 2.实现思路
+
+## (1)总体思路:
 
    滑动时,标题栏颜色发生渐变.标题栏点击后,定位到具体的位置.整个界面可以分为标题栏、界面2部分。而界面分为图片、评论、商户详情3部分.
   
@@ -14,11 +15,12 @@
    说白一点，就是获取图片、评论、商户详情这三个控件的高度。点击事件后，滑动相应高度即可    
 
 
-#3.实现细节
-##(1)布局     
+# 3.实现细节
+
+## (1)布局     
 3.1.1公司使用的自定义ScrollView.
 3.1.2.图片、评论、商户详情三部分控件的高度需要,布局中需要体现.具体代码见源码
-##(2)逻辑实现
+## (2)逻辑实现
 3.2.1.自定义的ScrollView.
     监听新旧横向、纵向的位置,通过接口回调的方式传递给activity进行相应操作.代码如下:
 
@@ -174,7 +176,7 @@ tvComment.setOnClickListener(new View.OnClickListener() {
 ```
 
 
-#4.其他
+# 4.其他
 
  1.[我的博客](http://blog.csdn.net/gaolh89/article/details/74080088)
 
