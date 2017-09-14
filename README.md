@@ -1,20 +1,14 @@
-效果图、代码逻辑见博客 [链接](http://blog.csdn.net/gaolh89/article/details/74080088)
-
-我会抽空将相关逻辑贴到GitHub上,给您带来的不便说声抱歉
-
 #1.效果图
  直接上效果图.
  ![这里写图片描述](http://img.blog.csdn.net/20170701214412871?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZ2FvbGg4OQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
  
- 第一次录制gif,经验不足.网上搜索大家推荐licecap.尝试后的确不错,操作比较简单.但有一个细节需要注意,不能有中文路径.
-
 #2.实现思路
 ##(1)总体思路:
 
    滑动时,标题栏颜色发生渐变.标题栏点击后,定位到具体的位置.整个界面可以分为标题栏、界面2部分。而界面分为图片、评论、商户详情3部分.
   
 ##(2)如何实现标题栏的渐变:
-   先在布局中写好，根据滑动位置的情况，将标题栏的颜色（包括字体颜色）有最浅的颜色，逐渐变成最终稳定的颜色（比如我的是黑色）
+   先在布局中写好，根据滑动位置的情况，将标题栏的颜色（包括字体颜色）由最浅的颜色，逐渐变成最终稳定的颜色（比如我的是黑色）
 
 ##(3)如何实现点击标题后定位到具体位置：
    说白一点，就是获取图片、评论、商户详情这三个控件的高度。点击事件后，滑动相应高度即可    
@@ -82,7 +76,8 @@ public class MyCustomScrollView extends ScrollView {
 layout.setBackgroundColor(Color.argb((int) alpha, 250, 250, 250));
 View1.setBackgroundColor(Color.argb((int) alpha, 0, 0, 0));
 tvGoods.setTextColor(Color.argb((int) alpha, 0, 0, 0));
-tvComment.setTextColor(Color.argb((int) alpha, 0, 0, 0));                tvDetails.setTextColor(Color.argb((int) alpha, 0, 0, 0));
+tvComment.setTextColor(Color.argb((int) alpha, 0, 0, 0));                
+tvDetails.setTextColor(Color.argb((int) alpha, 0, 0, 0));
 ```
 
 3.2.3.控件的测量:
@@ -179,8 +174,8 @@ tvComment.setOnClickListener(new View.OnClickListener() {
 ```
 
 
-#4.源码下载
+#4.其他
 
- [点击下载源码](https://github.com/gaolh89/ProductDetailsUi)
+ 1.[我的博客](http://blog.csdn.net/gaolh89/article/details/74080088)
 
-如果您觉得这篇博客对您有帮助,star就是对我最大的鼓励!
+ 2. 如果您觉得这篇博客对您有帮助,star就是对我最大的鼓励!
