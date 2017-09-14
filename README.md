@@ -19,6 +19,7 @@
 
 ## (1)布局     
 3.1.1公司使用的自定义ScrollView.
+
 3.1.2.图片、评论、商户详情三部分控件的高度需要,布局中需要体现.具体代码见源码
 ## (2)逻辑实现
 3.2.1.自定义的ScrollView.
@@ -179,4 +180,5 @@ tvComment.setOnClickListener(new View.OnClickListener() {
 # 4.其他
 
  (1).[我的博客](http://blog.csdn.net/gaolh89/article/details/74080088)
+ 
  (2).如果您觉得这篇博客对您有帮助,star就是对我最大的鼓励!
