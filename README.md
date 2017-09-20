@@ -1,6 +1,8 @@
 # 1.效果图
  
-  ![这里写图片描述](http://img.blog.csdn.net/20170701214412871?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZ2FvbGg4OQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+  ![这里写图片描述](https://github.com/gaolh89/ProductDetailsUi/blob/master/uigit/20170701214412871.gif)
+  
+  (真实的动画比这流畅得多)
  
 # 2.实现思路
 
